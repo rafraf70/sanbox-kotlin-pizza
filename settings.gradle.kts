@@ -1,1 +1,1 @@
-rootProject.name = "kotlin-pizza-spring"
+rootProject.name = "kotlin-pizza"
