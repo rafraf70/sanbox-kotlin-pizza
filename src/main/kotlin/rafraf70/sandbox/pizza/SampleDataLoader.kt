@@ -1,11 +1,11 @@
 package rafraf70.sandbox.pizza
 
-import de.freischlag.sandbox.pizza.customer.Address
-import de.freischlag.sandbox.pizza.customer.Customer
-import de.freischlag.sandbox.pizza.customer.CustomerService
-import de.freischlag.sandbox.pizza.product.Product
-import de.freischlag.sandbox.pizza.product.ProductService
 import org.springframework.stereotype.Component
+import rafraf70.sandbox.pizza.customer.Address
+import rafraf70.sandbox.pizza.customer.Customer
+import rafraf70.sandbox.pizza.customer.CustomerService
+import rafraf70.sandbox.pizza.product.Product
+import rafraf70.sandbox.pizza.product.ProductService
 
 
 interface SampleDataLoader : Runnable {

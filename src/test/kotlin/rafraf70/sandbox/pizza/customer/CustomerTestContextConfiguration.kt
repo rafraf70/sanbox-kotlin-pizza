@@ -8,13 +8,13 @@ import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Import
 import rafraf70.sandbox.pizza.SampleDataLoader.SmallDataLoader
 import rafraf70.sandbox.pizza.SampleDataLoaderRunner
-import pizza.product.ProductRepository
+import rafraf70.sandbox.pizza.product.ProductRepository
 
 @TestConfiguration
-@ComponentScan("pizza.product") // to get both service and repository beans
+@ComponentScan("rafraf70.sandbox.pizza") // to get both service and repository beans
 @Import(
     CustomerService::class,
-    rafraf70.sandbox.pizza.SampleDataLoaderRunner::class,
+    SampleDataLoaderRunner::class,
     SmallDataLoader::class,
     DataSourceAutoConfiguration::class
 )

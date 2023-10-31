@@ -12,13 +12,12 @@ import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers
-import pizza.customer.Customer
-import pizza.customer.CustomerRepository
-import pizza.customer.CustomerService
-import pizza.order.OrderRestController
-import pizza.product.Product
-import pizza.product.ProductRepository
-import pizza.product.ProductService
+import rafraf70.sandbox.pizza.customer.Customer
+import rafraf70.sandbox.pizza.customer.CustomerRepository
+import rafraf70.sandbox.pizza.customer.CustomerService
+import rafraf70.sandbox.pizza.product.Product
+import rafraf70.sandbox.pizza.product.ProductRepository
+import rafraf70.sandbox.pizza.product.ProductService
 import java.util.*
 
 @WebMvcTest(OrderRestController::class)

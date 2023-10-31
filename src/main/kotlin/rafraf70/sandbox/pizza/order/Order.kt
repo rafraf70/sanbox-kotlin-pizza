@@ -1,7 +1,7 @@
 package rafraf70.sandbox.pizza.order
 
 
-import de.freischlag.sandbox.pizza.customer.Customer
+import rafraf70.sandbox.pizza.customer.Customer
 import java.time.LocalDateTime
 
 class Order {
